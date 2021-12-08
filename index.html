@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,8 +15,9 @@
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/zoo.css">
 </head>
+
 <body>
-<!-- nav start -->
+    <!-- nav start -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
             aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,6 +39,441 @@
             </form> -->
         </div>
     </nav>
-<!-- nav end -->
+    <!-- nav end -->
+
+    <!-- main -->
+    <div class="container">
+
+        <!-- carousel start -->
+        <div class="container-flute">
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+                </ol>
+                <div class="carousel-inner ">
+                    <div class="carousel-item active">
+                        <img src="https://picsum.photos/id/236/800/300" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>AAA</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://picsum.photos/id/235/800/300" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>BBBBB</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://picsum.photos/id/234/800/300" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>CCCCCC</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://picsum.photos/id/233/800/300" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>DDDDDDD</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://picsum.photos/id/232/800/300" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>EEEEE</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions"
+                    data-slide="prev">
+                    <span class="fas fa-arrow-circle-left fa-3x" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </button>
+                <button class="carousel-control-next fa-3x" type="button" data-target="#carouselExampleCaptions"
+                    data-slide="next">
+                    <span class="fas fa-arrow-circle-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </button>
+            </div>
+        </div>
+        <!-- carousel end -->
+
+        <!-- pills -->
+        <div class="container mt-5">
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link active" id="home_pill" data-toggle="pill" href="#pills-home" role="tab"
+                        aria-controls="pills-home" aria-selected="true">前言</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="zoo_pill" data-toggle="pill" href="#pills-zoo" role="tab"
+                        aria-controls="pills-zoo" aria-selected="false">動物園</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="apuarium_pill" data-toggle="pill" href="#pills-apuarium" role="tab"
+                        aria-controls="pills-apuarium" aria-selected="false">海洋館</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="other_pill" data-toggle="pill" href="#pills-other" role="tab"
+                        aria-controls="pills-other" aria-selected="false">其他類型</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="home_pill">
+                    <h3>前言</h3>
+                    <p>從古至今，社會上有許多的園區專門供公眾觀賞動物。<br>
+                        像是動物園(Zoo)、海洋館(Aquarium)、主題樂園(Theme Park)、休閒農場(Leisure farm)...等。<br>
+                    發展到現代，對於動物園區的規範與對專業的要求也漸趨嚴苛，除了需要能教育大眾之外，大多還同時具有保育機構的功能。<br>
+                    <br>
+                        現在就來看看台灣有哪些相關的動物園區吧! (此網頁未能將台灣所有的相關園區都列入介紹)
+                    </p>
+                </div>
+                <div class="tab-pane fade" id="pills-zoo" role="tabpanel" aria-labelledby="zoo_pill">
+                    <h3>動物園</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit beatae assumenda odit commodi,
+                        ea iure quos quaerat molestias, cum corporis laboriosam quibusdam in rem illo ipsam nostrum,
+                        alias rerum aliquid.
+                    </p>
+                </div>
+                <div class="tab-pane fade" id="pills-apuarium" role="tabpanel" aria-labelledby="apuarium_pill">
+                    <h3>海洋館</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit beatae assumenda odit commodi,
+                        ea iure quos quaerat molestias, cum corporis laboriosam quibusdam in rem illo ipsam nostrum,
+                        alias rerum aliquid.
+                    </p>
+                </div>
+                <div class="tab-pane fade" id="pills-other" role="tabpanel" aria-labelledby="other_pill">
+                    <h3>其他類型</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit beatae assumenda odit commodi,
+                        ea iure quos quaerat molestias, cum corporis laboriosam quibusdam in rem illo ipsam nostrum,
+                        alias rerum aliquid.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- pills end-->
+
+        <!-- nav tab -->
+        <div class="container mt-2">
+            <ul class="nav nav-tabs justify-content-around " id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link active" id="north" data-toggle="tab" href="#page1" role="tab"
+                        aria-controls="page1" aria-selected="true">北部</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="central" data-toggle="tab" href="#page2" role="tab" aria-controls="page2"
+                        aria-selected="false">中部</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="south" data-toggle="tab" href="#page3" role="tab" aria-controls="page3"
+                        aria-selected="false">南部</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="east" data-toggle="tab" href="#page4" role="tab" aria-controls="page4"
+                        aria-selected="false">東部</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <!-- active 預設顯示 -->
+
+                <div class="tab-pane fade show active" id="page1" role="tabpanel" aria-labelledby="page1-tab">
+                    <!--page1 card 1 -->
+                    <div class="row row-cols-1 row-cols-md-3 mt-2">
+                        <div class="col mb-4">
+                            <div class="card card1">
+                                <img src="https://picsum.photos/id/234/800/300" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-4">
+                            <div class="card card1">
+                                <img src="https://picsum.photos/id/238/800/300" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-4">
+                            <div class="card card1">
+                                <img src="https://picsum.photos/id/240/800/300" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural
+                                        lead-in to additional content.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col mb-4">
+                            <div class="card card1">
+                                <img src="https://picsum.photos/id/241/800/300" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-4">
+                            <div class="card card1">
+                                <img src="https://picsum.photos/id/242/800/300" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-4">
+                            <div class="card card1">
+                                <img src="https://picsum.photos/id/243/800/300" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural
+                                        lead-in to additional content.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--page1 card 1  end-->
+                </div>
+
+
+                <div class="tab-pane fade" id="page2" role="tabpanel" aria-labelledby="page2-tab">
+                    <!--page2 card 2 -->
+                    <div id="page2" class="container tab-pane active"><br>
+                        <!-- tab2 row1 -->
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="box">
+                                    <div class="icon text-warning py-3 ">
+                                        <i class="fas fa-kiwi-bird fa-10x"></i>
+                                    </div>
+                                    <h3 class="text-secondary">Kiwi Bird</h3>
+                                    <div class="line bg-warning"></div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quibusdam
+                                        maiores
+                                        dolore nesciunt perferendis tempore modi nulla deserunt fugit.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="box">
+                                    <div class="icon text-info py-3 ">
+                                        <i class="fas fa-dove fa-10x"></i>
+                                    </div>
+                                    <h3 class="text-secondary">Q Bird</h3>
+                                    <div class="line bg-info"></div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quibusdam
+                                        maiores
+                                        dolore nesciunt perferendis tempore modi nulla deserunt fugit.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="box">
+                                    <div class="icon text-success py-3 ">
+                                        <i class="fas fa-crow fa-10x"></i>
+                                    </div>
+                                    <h3 class="text-secondary">QQ Bird</h3>
+                                    <div class="line bg-success"></div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem animi quibusdam
+                                        maiores
+                                        dolore nesciunt perferendis tempore modi nulla deserunt fugit.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- tab2 row1 end -->
+                        <!-- tab2 row2 -->
+                        <div class="row row-cols-2 row-cols-sm-3 row-cols-md-6">
+                            <div class="col mb-4">
+
+                                <div class="card text-center">
+                                    <i class="fas fa-dog fa-2x mt-3"></i>
+                                    <div class="card-body">
+                                        <h5 class="card-title">A</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-4">
+
+
+                                <div class="card text-center">
+                                    <i class="fas fa-cat fa-2x mt-3"></i>
+                                    <div class="card-body">
+                                        <h5 class="card-title">B</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-4">
+
+                                <div class="card text-center">
+                                    <i class="fas fa-horse fa-2x mt-3"></i>
+                                    <div class="card-body">
+                                        <h5 class="card-title">C</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-4">
+
+                                <div class="card text-center">
+                                    <i class="fas fa-paw fa-2x mt-3"></i>
+                                    <div class="card-body">
+                                        <h5 class="card-title">D</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-4">
+
+                                <div class="card text-center">
+                                    <i class="fas fa-kiwi-bird fa-2x mt-3"></i>
+                                    <div class="card-body">
+                                        <h5 class="card-title">E</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-4">
+
+                                <div class="card text-center">
+                                    <i class="fas fa-dragon fa-2x mt-3"></i>
+                                    <div class="card-body">
+                                        <h5 class="card-title">F</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- tab2 row2 end -->
+                    </div>
+                    <!--page2 card 2  end-->
+
+                </div>
+                <div class="tab-pane fade" id="page3" role="tabpanel" aria-labelledby="page3-tab">
+                    <!--page3 card 3 -->
+                    page3
+
+                    <!--page3 card 3 end-->
+                </div>
+                <div class="tab-pane fade show active" id="page4" role="tabpanel" aria-labelledby="page4-tab">
+                    <!-- page4  -->
+                    page4
+                    <!-- page4 end -->
+
+                </div>
+            </div>
+        </div>
+        <!-- nav tab end -->
+
+        <!-- yt  -->
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/oCefaFd8FVc"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="col-6">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-6">
+                                <h3>:>>></h3>
+                                <p>ZOOOOOOOO OOOOOOOOO OOOOOOOO </p>
+                            </div>
+                            <div class="col-6">
+                                <h3>:{</h3>
+                                <p>
+                                    <i class="fa fa-kiwi-bird"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- yt end -->
+        <hr>
+        <!-- google map -->
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14464.24054145309!2d121.5816589!3d24.9980725!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xaafe06fd09b4d766!2z6Ie65YyX5biC56uL5YuV54mp5ZyS!5e0!3m2!1szh-TW!2stw!4v1638421655334!5m2!1szh-TW!2stw"
+                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="col-6">
+                    <i class="fa fa-kiwi-bird fa-10x"></i>
+                </div>
+            </div>
+
+        </div>
+        <!-- google map end -->
+
+        <!-- gallery -->
+        <div class="cotainer">
+            <div class="row">
+                <div class="col-md-4">
+                    <div id="image1" class="box gbox">
+                        AAAAA <br><br><br><br><br><br><br><br>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div id="image2" class="box gbox">
+                        BBBBBB <br><br><br><br><br><br><br><br>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div id="image3" class="box gbox">
+                        CCCCCC <br><br><br><br><br><br><br><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- gallery end -->
+
+    </div>
+    <!-- main end -->
+
+
+    <!-- footer -->
+    <footer class="bg-dark text-white text-center container-fluid">
+        <div class="mt-5 py-2">
+            <p class="">&copy; CactusMoon</p>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+
+    <!-- bs4 script -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+        integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous">
+    </script>
 </body>
+<!-- nav tab js -->
+<script>
+    $(document).ready(function () {
+        $(".nav-tabs a").click(function () {
+            $(this).tab('show');
+        });
+    });
+</script>
+
 </html>
