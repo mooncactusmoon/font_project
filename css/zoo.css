@@ -1,5 +1,9 @@
 *{
     font-family: Microsoft JhengHei; 
+    
+}
+body{
+    background-color: rgb(209, 217, 236);
 }
 .card{
     padding: 10px;
