@@ -3,7 +3,14 @@
     
 }
 body{
-    background-color: rgb(209, 217, 236);
+    /* background-color: rgb(209, 217, 236); */  
+    background-image: url('../img/bg.jpg');
+}
+.top{
+    position: fixed;
+    bottom: 10%;
+    left : 20px;
+   
 }
 .card{
     padding: 10px;
